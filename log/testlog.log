@@ -1,0 +1,277 @@
+2024-03-27 10:49:58,587 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-27 10:54:33,001 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-27 10:57:25,424 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-27 10:57:36,386 - Shopify Test Cases Suite -INFO - test Started
+2024-03-27 11:00:17,090 - Shopify Test Cases Suite -INFO - test Finished
+2024-03-27 11:00:24,626 - Shopify Test Cases Suite -INFO - test Started
+2024-03-27 11:01:59,844 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-03-27 11:02:00,358 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-27 11:02:01,260 - Shopify Test Cases Suite -INFO - Result locked in the report
+2024-03-27 13:58:37,780 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-27 14:00:13,205 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-28 11:58:54,310 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-28 11:59:06,198 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:00:46,640 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-03-28 12:00:47,402 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-28 12:00:48,475 - Shopify Test Cases Suite -INFO - Result locked in the report
+2024-03-28 12:06:18,304 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-28 12:06:20,799 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:06:20,844 - Shopify Test Cases Suite -INFO - test Finished
+2024-03-28 12:06:20,863 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:06:20,868 - Shopify Test Cases Suite -INFO - test Finished
+2024-03-28 12:06:20,887 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:06:20,900 - Shopify Test Cases Suite -INFO - test Finished
+2024-03-28 12:06:20,914 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:06:20,917 - Shopify Test Cases Suite -INFO - test Finished
+2024-03-28 12:06:20,936 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:06:20,939 - Shopify Test Cases Suite -INFO - test Finished
+2024-03-28 12:06:20,951 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-28 12:06:22,174 - Shopify Test Cases Suite -INFO - Result locked in the report
+2024-03-28 12:06:45,636 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-28 12:06:59,660 - Shopify Test Cases Suite -INFO - test Started
+2024-03-28 12:07:13,863 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-03-28 12:07:15,755 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-03-28 12:07:15,760 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-03-28 12:07:15,762 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-03-28 12:07:16,466 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-28 12:07:17,606 - Shopify Test Cases Suite -INFO - Result locked in the report
+2024-03-30 23:31:26,572 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:31:26,700 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-30 23:32:56,584 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:32:57,130 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-30 23:34:22,012 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:34:22,452 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-30 23:38:53,107 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:38:53,549 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-30 23:44:04,406 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:44:04,891 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-30 23:44:57,657 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:44:58,148 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-30 23:49:20,522 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:49:41,472 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-30 23:49:58,166 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-31 10:06:07,655 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-31 10:06:27,184 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-31 10:09:00,074 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-31 10:09:10,706 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-31 10:31:06,066 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-31 10:31:28,097 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-31 10:31:52,205 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-31 10:41:07,000 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-31 10:41:07,530 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-03-31 10:43:56,922 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-03-31 10:44:08,305 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:01:20,770 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:01:32,668 - Shopify Test Cases Suite -INFO - test Started
+2024-04-13 12:01:32,707 - Shopify Test Cases Suite -INFO - test skipped ...
+2024-04-13 12:01:32,740 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:01:35,201 - Shopify Test Cases Suite -INFO - Result locked in the report
+2024-04-13 12:03:15,156 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:04:00,376 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:06:31,512 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:06:41,250 - Shopify Test Cases Suite -INFO - test Started
+2024-04-13 12:07:16,337 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-13 12:07:16,690 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-13 12:07:16,690 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-13 12:07:17,433 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:07:18,133 - Shopify Test Cases Suite -INFO - Result locked in the report
+2024-04-13 12:10:41,538 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:11:54,938 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:12:24,211 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:12:24,771 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:12:56,643 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:13:15,481 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:13:55,302 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:14:16,155 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:46:05,365 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:46:24,025 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:47:24,572 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:48:14,829 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:48:46,335 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:49:31,173 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 12:51:54,037 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 12:52:37,707 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:02:31,767 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:03:15,001 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:04:18,160 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:04:58,890 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:07:10,700 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:07:51,839 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:08:44,298 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:09:28,811 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:11:57,714 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:12:40,385 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:13:59,826 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:14:39,937 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:15:58,446 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:16:42,392 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:17:13,304 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:17:59,508 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:18:25,911 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:19:08,312 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:19:26,710 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:20:10,401 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:31:30,324 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:32:16,600 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:32:49,781 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:33:39,495 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:34:24,715 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:35:07,284 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:35:17,719 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:36:00,295 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:36:22,858 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:37:04,783 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:37:29,351 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:38:11,977 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:38:46,790 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:39:35,962 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:39:42,430 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:40:22,759 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:40:47,017 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:41:26,895 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:43:34,753 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:44:18,925 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:44:25,814 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:45:06,364 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:45:40,314 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:46:29,187 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:46:43,612 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:47:28,458 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:47:36,013 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:48:17,354 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:48:54,198 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:49:35,792 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-13 14:49:58,764 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-13 14:50:45,068 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 19:08:13,869 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 19:09:09,605 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 19:11:54,515 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 19:12:40,499 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 19:13:41,014 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 19:14:22,978 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 19:15:10,776 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 19:15:53,264 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:00:04,500 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:00:06,185 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:01:43,078 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:01:44,679 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:03:00,333 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:03:01,849 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:04:56,603 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:04:58,181 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:06:46,368 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:06:47,951 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:08:56,358 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:08:57,946 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:11:51,041 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:11:52,785 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:13:28,621 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:13:30,132 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:14:37,901 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:14:39,728 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:15:40,539 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:15:42,105 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:20:00,533 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:20:02,600 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:21:39,027 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:23:25,812 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:25:54,306 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:27:37,130 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:38:46,411 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:38:48,120 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:39:12,558 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:39:14,055 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:40:12,345 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:42:11,607 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:44:50,166 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:47:07,254 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-14 20:48:54,332 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-14 20:50:59,272 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 10:21:14,029 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 10:22:49,964 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 10:23:49,375 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 10:26:08,864 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 10:28:59,100 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 10:28:59,164 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 10:29:44,055 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 10:31:07,789 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 11:03:35,598 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 11:04:54,152 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 11:07:36,773 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 11:08:57,160 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 11:10:07,530 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 11:11:12,384 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 11:11:54,082 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 11:12:51,445 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 11:15:39,743 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 11:17:18,417 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 11:20:11,540 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:28:02,523 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:28:30,145 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:28:34,538 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:29:28,689 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:34:34,423 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:35:18,186 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:39:31,528 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:40:33,812 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:41:16,840 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:42:16,003 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:43:48,095 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:45:02,714 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:45:40,953 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:47:03,820 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:47:41,041 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:49:02,020 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:49:17,497 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:50:42,507 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:50:52,092 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:52:13,321 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:53:05,733 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:54:29,164 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 18:56:33,079 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 18:57:13,850 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-15 19:04:55,186 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-15 19:05:36,506 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:02:42,168 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:02:45,826 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:04:58,736 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:05:02,269 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:05:33,499 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:05:37,163 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:08:51,322 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:08:55,370 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:15:59,375 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:16:03,775 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:20:19,619 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:20:25,534 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-24 18:32:29,158 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-24 18:32:32,647 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 17:53:24,779 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 17:53:34,967 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 17:54:23,498 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 17:54:39,988 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 17:55:08,817 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 17:55:24,396 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:01:33,146 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:01:48,282 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:02:22,470 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:02:33,162 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:03:27,301 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:03:39,950 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:20:10,121 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:20:52,510 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:21:57,196 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:22:32,079 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:25:06,194 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:25:44,996 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:32:15,124 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:32:28,239 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:32:33,734 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:32:56,206 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:35:11,811 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:36:06,601 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:36:43,419 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:37:25,382 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:37:35,894 - Shopify Test Cases Suite -INFO - Suite execution stopped
+2024-04-25 18:43:55,194 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-25 18:44:04,676 - Shopify Test Cases Suite -INFO - Suite execution stopped
