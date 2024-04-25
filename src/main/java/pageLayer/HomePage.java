@@ -68,18 +68,34 @@ public class HomePage extends UtilClass {
 	}
 
 	public void clickHeaderCategories_links_Dynamic() {
+
 		Actions a = new Actions(driver);
+
 		a.moveToElement(header_Categories).build().perform();
 
 		String clickontab = Keys.chord(Keys.CONTROL, Keys.ENTER);
 
-		for (WebElement links : categories_Name2) {
-
-			a.moveToElement(links.findElement(By.tagName("a"))).sendKeys(clickontab).build().perform();
-
+		for (int i = 0; i < 8; i++) {
+			categories_Name.get(i).sendKeys(clickontab);
+			
+			
+			
 		}
+
+//		for (WebElement links : categories_Name) {
+//
+//			links.sendKeys(clickontab);
+//
+//		}
 		Set<String> all_id = driver.getWindowHandles();
 		Iterator<String> it = all_id.iterator();
+
+		while (it.hasNext()) {
+
+			driver.switchTo().window(it.next());
+			product_inside_categories.click();
+
+		}
 
 	}
 
