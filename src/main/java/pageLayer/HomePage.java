@@ -75,7 +75,7 @@ public class HomePage extends UtilClass {
 
 		String clickontab = Keys.chord(Keys.CONTROL, Keys.ENTER);
 
-		for (int i = 0; i < 8; i++) {
+		for (int i = 0; i < 2; i++) {
 			categories_Name.get(i).sendKeys(clickontab);
 			
 			
@@ -93,6 +93,7 @@ public class HomePage extends UtilClass {
 		while (it.hasNext()) {
 
 			driver.switchTo().window(it.next());
+			
 			product_inside_categories.click();
 
 		}
