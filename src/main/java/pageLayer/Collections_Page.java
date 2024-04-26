@@ -86,8 +86,7 @@ public class Collections_Page extends UtilClass {
 				System.out.println("Inside loop");
 				driver.switchTo().window(c_id);
 
-				pdp_obj.number_Of_Product_To_Add_in_Cart(number_of_product);
-				pdp_obj.click_Add_To_Cart();
+				
 				try {
 					Thread.sleep(2000);
 				} catch (InterruptedException e) {

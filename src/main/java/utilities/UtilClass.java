@@ -59,7 +59,7 @@ public class UtilClass extends BaseTest {
 			r.keyPress(KeyEvent.VK_V);
 			r.keyRelease(KeyEvent.VK_CONTROL);
 			r.keyRelease(KeyEvent.VK_V);
-            r.keyPress(KeyEvent.VK_ENTER);
+			r.keyPress(KeyEvent.VK_ENTER);
 			r.keyRelease(KeyEvent.VK_ENTER);
 			Toolkit.getDefaultToolkit().getSystemClipboard().setContents(null, null);
 
@@ -69,7 +69,7 @@ public class UtilClass extends BaseTest {
 		}
 
 	}
-	
+
 	public void uploadLabResultPhotoLocation(String location) {
 
 		s1 = new StringSelection(location);
@@ -84,7 +84,6 @@ public class UtilClass extends BaseTest {
 
 			r.keyPress(KeyEvent.VK_ENTER);
 			r.keyRelease(KeyEvent.VK_ENTER);
-			
 
 		} catch (Exception e) {
 
@@ -155,65 +154,68 @@ public class UtilClass extends BaseTest {
 		a.moveToElement(element).click().build().perform();
 
 	}
-	
+
 	public void hoverOverElement(WebElement element) {
 
 		a.moveToElement(element).build().perform();
 
 	}
-	
-	
-	public void waitUntilPresence(By by,int seconds) {
-		
-		
-        wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
 
-        try {
-            // Locate the element (example)
-            wait.until(ExpectedConditions.presenceOfElementLocated(by));
+	public void waitUntilPresence(By by, int seconds) {
 
-            // Interact with the element
+		wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
+
+		try {
+			// Locate the element (example)
+			wait.until(ExpectedConditions.presenceOfElementLocated(by));
+
+			// Interact with the element
 //            element.click();
-        } catch (StaleElementReferenceException e) {
-            // Re-locate the element and retry the interaction
-             wait.until(ExpectedConditions.presenceOfElementLocated(by));
+		} catch (StaleElementReferenceException e) {
+			// Re-locate the element and retry the interaction
+			wait.until(ExpectedConditions.presenceOfElementLocated(by));
 //            element.click();
-        } 
+		}
 	}
-	
 
-	@FindBy(css=".header__icons.header__icons--localization.header-localization a[href='/cart']")
+	public void NavigateBack(WebElement element, int seconds) {
+
+		driver.navigate().back();
+
+	}
+
+	@FindBy(css = ".header__icons.header__icons--localization.header-localization a[href='/cart']")
 	WebElement cartIcon;
-	
+
 	public void clickOnCartHeader() {
-		
+
 		cartIcon.click();
 	}
-	
-	@FindBy(id="CartDrawer-Checkout")
-	WebElement checkOut_btn;
-	public void clickOnCheckOut_btn() {
-		
-//		waitUntilPresence(By.cssSelector("[id='CartDrawer']"),5);
-		waitTillClickable(checkOut_btn,5);
-//		waitUntilPresence(By.cssSelector("[id='CartDrawer']"),5);
-		
-		checkOut_btn.click(); 
-	}
-	
-	@FindBy(xpath="//*[contains(@id,'MainContent')]")
-	WebElement mainBody_btn;
-	public void clickOnMainBody_btn() {
-		
 
-		
-		mainBody_btn.click(); 
+	@FindBy(id = "CartDrawer-Checkout")
+	WebElement checkOut_btn;
+
+	public void clickOnCheckOut_btn() {
+
+//		waitUntilPresence(By.cssSelector("[id='CartDrawer']"),5);
+		waitTillClickable(checkOut_btn, 5);
+//		waitUntilPresence(By.cssSelector("[id='CartDrawer']"),5);
+
+		checkOut_btn.click();
 	}
-	
-	@DataProvider(name="dp")
+
+	@FindBy(xpath = "//*[contains(@id,'MainContent')]")
+	WebElement mainBody_btn;
+
+	public void clickOnMainBody_btn() {
+
+		mainBody_btn.click();
+	}
+
+	@DataProvider(name = "dp")
 	public static Object[][] readDataBook14() {
 
-		String path = System.getProperty("user.dir")+"\\src\\test\\resources\\ExcelSheets\\Book2.xlsx";
+		String path = System.getProperty("user.dir") + "\\src\\test\\resources\\ExcelSheets\\Book2.xlsx";
 		Object[][] data = null;
 		Map<String, String> map = new HashMap<>();
 		try {
@@ -249,10 +251,10 @@ public class UtilClass extends BaseTest {
 		return data;
 
 	}
-	
-	public static void WriteData(String sheetname, String message, int startRownum, String colNmae) throws IOException {
 
-		String path = "F:\\software testing notes\\manual testing notes\\Eclipsce Worksspace\\ExcelHandling\\resources\\MeritList.xlsx";
+	public  void WriteData(String sheetname, String message, int startRownum, String colNmae) throws IOException {
+
+		String path = System.getProperty("user.dir")+ "\\src\\test\\resources\\ExcelSheets\\Book23.xlsx";
 
 		FileInputStream fis = new FileInputStream(path);
 
@@ -276,6 +278,9 @@ public class UtilClass extends BaseTest {
 
 			System.out.println("Cell Number to write is " + cellNum);
 			if (sheetName.equalsIgnoreCase(sheetname)) {
+				
+				Row r =wb.getSheetAt(i).createRow(startRownum);
+				
 
 				Iterator<Cell> cellIt = wb.getSheetAt(i).getRow(0).cellIterator();
 
@@ -289,12 +294,12 @@ public class UtilClass extends BaseTest {
 					storeCell++;
 
 				}
-				for (int j = startRownum; j < k; j++) {
+				for (int j = startRownum; j < startRownum+1; j++) {
 
-					wb.getSheetAt(i).getRow(j).createCell(cellNum).setCellValue(0);
+					r.createCell(cellNum).setCellValue(message);
 					FileOutputStream fos = new FileOutputStream(path);
 					wb.write(fos);
-					System.out.println("Done!!");
+					System.out.println(j +" Done!!");
 
 				}
 
@@ -302,6 +307,5 @@ public class UtilClass extends BaseTest {
 
 		}
 	}
-	
-	
+
 }

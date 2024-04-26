@@ -3,8 +3,10 @@ package pageLayer;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -22,8 +24,8 @@ public class PDP_Page extends UtilClass {
 
 	}
 
-	@FindBy(css = "[class='quantity'] [id='Quantity-template--19304403992844__main']")
-	private WebElement numberOfProducts;
+	@FindBy(css = ".product-info-main h5")
+	private WebElement descriptionOfproduct;
 
 	@FindBy(css = "[class='product-form__buttons'] [type='submit']")
 	private WebElement add_to_cart_button;
@@ -40,27 +42,12 @@ public class PDP_Page extends UtilClass {
 	@FindBy(css = "[class='quantity'] [name='minus']")
 	private WebElement product_quant_minus_sign_btn;
 
-	public void number_Of_Product_To_Add_in_Cart(int numberOfProduct) {
+	public String get_Description() {
 
-		waitUntilPresence(By.cssSelector("[class='quantity'] [name='plus'] svg"),5);
-		
-		
-		for (int i = 0; i < numberOfProduct-1; i++) {
-
-			waitTillClickable(product_quant_plus_sign_btn, 5);
-			product_quant_plus_sign_btn.click();
-
-		}
+		return descriptionOfproduct.getText();
 
 	}
-	
-	public void click_Add_To_Cart() {
-		
-		add_to_cart_button.click();
-		
-	}
-	
-	
 
 	
+
 }
