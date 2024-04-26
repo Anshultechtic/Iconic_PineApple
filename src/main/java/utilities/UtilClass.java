@@ -178,7 +178,7 @@ public class UtilClass extends BaseTest {
 		}
 	}
 
-	public void NavigateBack(WebElement element, int seconds) {
+	public void NavigateBack() {
 
 		driver.navigate().back();
 
@@ -254,7 +254,7 @@ public class UtilClass extends BaseTest {
 
 	public  void WriteData(String sheetname, String message, int startRownum, String colNmae) throws IOException {
 
-		String path = System.getProperty("user.dir")+ "\\src\\test\\resources\\ExcelSheets\\Book23.xlsx";
+		String path = System.getProperty("user.dir")+ "\\src\\test\\resources\\ExcelSheets\\Book22.xlsx";
 
 		FileInputStream fis = new FileInputStream(path);
 

@@ -14,9 +14,9 @@ public class AddProductToCart extends BaseTest {
 	public void getAllCategoriesName() throws InterruptedException, IOException {
 
 		hp_obj.closePopup();
-		;
+		
 
-		hp_obj.get_All_categoriesNames();
+		hp_obj.getProductDetails();
 		
 	}
 

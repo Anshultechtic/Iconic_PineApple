@@ -49,6 +49,16 @@ public class HomePage extends UtilClass {
 	@FindBy(css = ".right_logo_content p")
 	private WebElement logo_content;
 
+	@FindBy(xpath = "(//*[@id='m-navigation-product-list-wrapper']//*[@class='info'])")
+	private List<WebElement> products_inside_categories;
+	
+	
+	@FindBy(css = ".product-info-main .cust_description.overview")
+	private WebElement descriptionOfproduct;
+	
+	@FindBy(css = ".page-title .base")
+	private WebElement nameOfproduct;
+
 	public void closePopup() {
 		popup_close_button.click();
 	}
@@ -73,36 +83,49 @@ public class HomePage extends UtilClass {
 
 	}
 
-	
 	public ArrayList<String> get_All_categoriesNames() throws IOException {
 		Actions a = new Actions(driver);
 
 		a.moveToElement(header_Categories).build().perform();
-//		for(WebElement categorie_Name : categories_Name) {
-//			
-//			
-//			listOfCategories.add(categorie_Name.getText());
-//			
-//			System.out.println(categorie_Name.getText());
-//			
-//			
-//		}
-		
-		
-		for(int i =0; i<categories_Name.size();i++) {
-			
+		for (int i = 0; i < categories_Name.size(); i++) {
+
 			System.out.println(categories_Name.get(i).getText());
-			WriteData("Iconic", categories_Name.get(i).getText(), i+1, "Category");
-			
+			WriteData("Iconic", categories_Name.get(i).getText(), i + 1, "Category");
+
 		}
-		
-		
+
 		return listOfCategories;
 	}
-	
-	
-	
-	
+
+	public void getProductDetails() throws IOException {
+
+		Actions a = new Actions(driver);
+
+		a.moveToElement(header_Categories).build().perform();
+		int i = 1;
+		for (WebElement product : categories_Name) {
+
+			System.out.println(product.getText());
+
+			product.click();
+
+
+			for (WebElement products : products_inside_categories) {
+
+				products.click();
+
+				
+				System.out.println(descriptionOfproduct.getText() +"==== "+ nameOfproduct.getText());
+				WriteData("Iconic Product", descriptionOfproduct.getText().split("Description")[1], i , "Description");
+				WriteData("Iconic Product",  nameOfproduct.getText(), i, "Name");
+				i++;
+				NavigateBack();
+
+			}
+		}
+
+	}
+
 	public void clickHeaderCategories_links_Dynamic() {
 
 		Actions a = new Actions(driver);
@@ -139,9 +162,5 @@ public class HomePage extends UtilClass {
 		}
 
 	}
-
-	
-	
-	
 
 }

@@ -26,6 +26,9 @@ public class PDP_Page extends UtilClass {
 
 	@FindBy(css = ".product-info-main h5")
 	private WebElement descriptionOfproduct;
+	
+	@FindBy(css = ".page-title .base")
+	private WebElement nameOfproduct;
 
 	@FindBy(css = "[class='product-form__buttons'] [type='submit']")
 	private WebElement add_to_cart_button;
@@ -47,6 +50,14 @@ public class PDP_Page extends UtilClass {
 		return descriptionOfproduct.getText();
 
 	}
+	
+	public String get_nameOfproduct() {
+
+		return nameOfproduct.getText();
+
+	}
+	
+	
 
 	
 
