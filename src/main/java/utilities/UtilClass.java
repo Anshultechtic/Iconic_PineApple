@@ -251,6 +251,119 @@ public class UtilClass extends BaseTest {
 		return data;
 
 	}
+	
+	public static void WriteData3(String sheetname, String message, int startRownum, String colNmae) throws IOException {
+
+		String path = System.getProperty("user.dir") + "\\src\\test\\resources\\ExcelSheets\\Book22.xlsx";
+
+		FileInputStream fis = new FileInputStream(path);
+
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+
+		int numOfSheets = wb.getNumberOfSheets();
+		int cellNum = 0;
+//		System.out.println("Number of Sheet in documents is/are :" + numOfSheets);
+
+		for (int i = 0; i < numOfSheets; i++) {
+
+			String sheetName = wb.getSheetName(i);
+			Iterator<Row> rowIt = wb.getSheetAt(i).iterator();
+
+			int k = 0;
+			int storeCell = 0;
+			while (rowIt.hasNext()) {
+				rowIt.next();
+				k++;
+			}
+
+//			System.out.println("Cell Number to write is " + cellNum);
+			if (sheetName.equalsIgnoreCase(sheetname)) {
+				Row r = null;
+				if (wb.getSheetAt(i).getRow(startRownum) == null) {
+					r = wb.getSheetAt(i).createRow(startRownum);
+				}  else {
+					
+					r= wb.getSheetAt(i).getRow(startRownum);
+				}
+				Iterator<Cell> cellIt = wb.getSheetAt(i).getRow(0).cellIterator();
+
+				while (cellIt.hasNext()) {
+
+					if (cellIt.next().getStringCellValue().equalsIgnoreCase(colNmae)) {
+						System.out.println("Found");
+						cellNum = storeCell;
+						break;
+					}
+					storeCell++;
+
+				}
+				for (int j = startRownum; j < startRownum + 1; j++) {
+
+					r.createCell(cellNum).setCellValue(message);
+					FileOutputStream fos = new FileOutputStream(path);
+					wb.write(fos);
+					System.out.println(j + " Done!!");
+
+				}
+
+			}
+
+		}
+
+	}
+	public static void WriteData2(String sheetname, 
+			String message, int startRownum, String colNmae) throws IOException {
+
+		String path =  System.getProperty("user.dir")+ "\\src\\test\\resources\\ExcelSheets\\Book22.xlsx";
+
+		FileInputStream fis = new FileInputStream(path);
+
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+
+		int numOfSheets = wb.getNumberOfSheets();
+		int cellNum = 0;
+		System.out.println("Number of Sheet in documents is/are :" + numOfSheets);
+
+		for (int i = 0; i < numOfSheets; i++) {
+
+			String sheetName = wb.getSheetName(i);
+			Iterator<Row> rowIt = wb.getSheetAt(i).iterator();
+
+			int k = 0;
+			int storeCell = 0;
+			while (rowIt.hasNext()) {
+				rowIt.next();
+				k++;
+			}
+
+			System.out.println("Cell Number to write is " + cellNum);
+			if (sheetName.equalsIgnoreCase(sheetname)) {
+
+				Iterator<Cell> cellIt = wb.getSheetAt(i).getRow(0).cellIterator();
+
+				while (cellIt.hasNext()) {
+
+					if (cellIt.next().getStringCellValue().equalsIgnoreCase(colNmae)) {
+						System.out.println("Found");
+						cellNum = storeCell;
+						break;
+					}
+					storeCell++;
+
+				}
+				for (int j = startRownum; j < k; j++) {
+
+					wb.getSheetAt(i).getRow(j).createCell(cellNum).setCellValue(message);
+					FileOutputStream fos = new FileOutputStream(path);
+					wb.write(fos);
+					System.out.println("Done!!");
+
+				}
+
+			}
+
+		}
+	}
 
 	public  void WriteData(String sheetname, String message, int startRownum, String colNmae) throws IOException {
 

@@ -51,13 +51,15 @@ public class HomePage extends UtilClass {
 
 	@FindBy(xpath = "(//*[@id='m-navigation-product-list-wrapper']//*[@class='info'])")
 	private List<WebElement> products_inside_categories;
-	
-	
+
 	@FindBy(css = ".product-info-main .cust_description.overview")
 	private WebElement descriptionOfproduct;
-	
+
 	@FindBy(css = ".page-title .base")
 	private WebElement nameOfproduct;
+
+	@FindBy(css = "[itemprop='sku']")
+	private WebElement skuOfproduct;
 
 	public void closePopup() {
 		popup_close_button.click();
@@ -102,26 +104,32 @@ public class HomePage extends UtilClass {
 		Actions a = new Actions(driver);
 
 		a.moveToElement(header_Categories).build().perform();
-		int i = 1;
+//		int i = 1;
+
 		for (WebElement product : categories_Name) {
 
 			System.out.println(product.getText());
-
+			waitTillClickable(product, 5);
 			product.click();
 
+			System.out.println(products_inside_categories.size());
 
-			for (WebElement products : products_inside_categories) {
+//			for (WebElement products : products_inside_categories) {
+			for (int i = 20; i < products_inside_categories.size(); i++) {
 
-				products.click();
+				waitTillClickable(products_inside_categories.get(i), 5);
+				products_inside_categories.get(i).click();
 
-				
-				System.out.println(descriptionOfproduct.getText() +"==== "+ nameOfproduct.getText());
-				WriteData("Iconic Product", descriptionOfproduct.getText().split("Description")[1], i , "Description");
-				WriteData("Iconic Product",  nameOfproduct.getText(), i, "Name");
-				i++;
+				System.out.println(descriptionOfproduct.getText() + "==== " + nameOfproduct.getText());
+//				WriteData3("Iconic Product", descriptionOfproduct.getText().split("Description")[1], i, "Description");
+//				WriteData3("Iconic Product", nameOfproduct.getText(), i, "Name");
+//				WriteData3("Iconic Product", skuOfproduct.getText(), i, "SKU");
+//				i++;
 				NavigateBack();
-
+				System.out.println("Back");
 			}
+
+//			}
 		}
 
 	}

@@ -93,8 +93,8 @@ public class BaseTest {
 			ChromeOptions options = new ChromeOptions();
 
 			options.addArguments("--headless");
-//			driver = new ChromeDriver(options);
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(options);
+//			driver = new ChromeDriver();
 
 		}
 		if (browserName.equalsIgnoreCase("edge")) {
@@ -167,7 +167,7 @@ public class BaseTest {
 
 		}
 
-		driver.quit();
+//		driver.quit();
 
 	}
 
