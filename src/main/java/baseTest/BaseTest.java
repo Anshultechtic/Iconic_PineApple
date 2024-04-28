@@ -92,7 +92,7 @@ public class BaseTest {
 
 			ChromeOptions options = new ChromeOptions();
 
-			options.addArguments("--headless");
+			options.addArguments("--headless","--window-size=1920,1200");
 			driver = new ChromeDriver(options);
 //			driver = new ChromeDriver();
 

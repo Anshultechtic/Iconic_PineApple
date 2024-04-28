@@ -49,7 +49,7 @@ public class HomePage extends UtilClass {
 	@FindBy(css = ".right_logo_content p")
 	private WebElement logo_content;
 
-	@FindBy(xpath = "(//*[@id='m-navigation-product-list-wrapper']//*[@class='info'])")
+	@FindBy(css = ".product-item-link")
 	private List<WebElement> products_inside_categories;
 
 	@FindBy(css = ".product-info-main .cust_description.overview")
@@ -104,7 +104,7 @@ public class HomePage extends UtilClass {
 		Actions a = new Actions(driver);
 
 		a.moveToElement(header_Categories).build().perform();
-//		int i = 1;
+		int i = 1;
 
 		for (WebElement product : categories_Name) {
 
@@ -112,21 +112,26 @@ public class HomePage extends UtilClass {
 			waitTillClickable(product, 5);
 			product.click();
 
-			System.out.println(products_inside_categories.size());
+			System.out.println("Number of Poduct in this Page is =" + products_inside_categories.size());
 
-//			for (WebElement products : products_inside_categories) {
-			for (int i = 20; i < products_inside_categories.size(); i++) {
+			for (WebElement products : products_inside_categories) {
+//			for (int i = 0; i < products_inside_categories.size(); i++) {
 
 				waitTillClickable(products_inside_categories.get(i), 5);
-				products_inside_categories.get(i).click();
 
+				a.moveToElement(products_inside_categories.get(i)).click().build().perform();
+//				products_inside_categories.get(i).click();
 				System.out.println(descriptionOfproduct.getText() + "==== " + nameOfproduct.getText());
-//				WriteData3("Iconic Product", descriptionOfproduct.getText().split("Description")[1], i, "Description");
-//				WriteData3("Iconic Product", nameOfproduct.getText(), i, "Name");
-//				WriteData3("Iconic Product", skuOfproduct.getText(), i, "SKU");
-//				i++;
+				WriteData3("Iconic Product", descriptionOfproduct.getText().split("Description")[1], i, "Description");
+				WriteData3("Iconic Product", nameOfproduct.getText(), i, "Name");
+				WriteData3("Iconic Product", skuOfproduct.getText(), i, "SKU");
+				i++;
+				
 				NavigateBack();
 				System.out.println("Back");
+
+				
+
 			}
 
 //			}

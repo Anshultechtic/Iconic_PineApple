@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import baseTest.BaseTest;
 import baseTest.BaseTest2;
 
-public class AddProductToCart extends BaseTest {
+public class ProductDetailsTest extends BaseTest {
 
 	@Test
 	public void getAllCategoriesName() throws InterruptedException, IOException {
