@@ -5,10 +5,10 @@
     <classes>
       <class name="testLayer.ProductDetailsTest">
         <methods>
+          <include name="checkProductDetails"/>
           <include name="OnTestend"/>
           <include name="OnTeststart"/>
           <include name="launchApplication"/>
-          <include name="getAllCategoriesName"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testLayer.ProductDetailsTest -->

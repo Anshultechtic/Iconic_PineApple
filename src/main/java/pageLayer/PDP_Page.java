@@ -24,11 +24,14 @@ public class PDP_Page extends UtilClass {
 
 	}
 
-	@FindBy(css = ".product-info-main h5")
+	@FindBy(css = ".product-info-main .cust_description.overview")
 	private WebElement descriptionOfproduct;
-	
+
 	@FindBy(css = ".page-title .base")
 	private WebElement nameOfproduct;
+
+	@FindBy(css = ".attributes-list [data-th='Size']")
+	private WebElement get_size_of_product;
 
 	@FindBy(css = "[class='product-form__buttons'] [type='submit']")
 	private WebElement add_to_cart_button;
@@ -45,20 +48,22 @@ public class PDP_Page extends UtilClass {
 	@FindBy(css = "[class='quantity'] [name='minus']")
 	private WebElement product_quant_minus_sign_btn;
 
-	public String get_Description() {
+	public String get_Size_Of_product() {
 
-		return descriptionOfproduct.getText();
+		return get_size_of_product.getText();
 
 	}
-	
+
+	public String get_Description() {
+
+		return descriptionOfproduct.getText().split("Description")[1];
+
+	}
+
 	public String get_nameOfproduct() {
 
 		return nameOfproduct.getText();
 
 	}
-	
-	
-
-	
 
 }

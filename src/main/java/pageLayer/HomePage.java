@@ -61,6 +61,9 @@ public class HomePage extends UtilClass {
 	@FindBy(css = "[itemprop='sku']")
 	private WebElement skuOfproduct;
 
+	@FindBy(css = ".toolbarbottom.pagination .action.next")
+	private WebElement pagination_Next_btn;
+
 	public void closePopup() {
 		popup_close_button.click();
 	}
@@ -99,6 +102,62 @@ public class HomePage extends UtilClass {
 		return listOfCategories;
 	}
 
+	public void getProductDetailsOfAbstractCategory() throws IOException {
+
+		Actions a = new Actions(driver);
+
+		a.moveToElement(header_Categories).build().perform();
+		int i = 1;
+
+//		for (WebElement product : categories_Name) {
+
+		System.out.println(categories_Name.get(0).getText());
+		waitTillClickable(categories_Name.get(0), 5);
+		categories_Name.get(0).click();
+
+		System.out.println("Number of Poduct in this Page is =" + products_inside_categories.size());
+
+//		}
+
+		for (int k = 0; k < 6; k++) {
+
+			getProducts();
+
+			pagination_Next_btn.click();
+			try {
+				Thread.sleep(10000);
+			} catch (InterruptedException e) {
+
+				e.printStackTrace();
+			}
+
+		}
+
+	}
+
+	public void getProducts() throws IOException {
+
+		int i = 1;
+
+		for (int j = 99; j < products_inside_categories.size(); j++) {
+
+			waitTillClickable(products_inside_categories.get(j), 5);
+
+//			a.moveToElement(products_inside_categories.get(j)).click().build().perform();
+			products_inside_categories.get(j).click();
+			System.out.println(descriptionOfproduct.getText() + "==== " + nameOfproduct.getText());
+			WriteData3("Iconic Product", descriptionOfproduct.getText().split("Description")[1], i, "Description");
+			WriteData3("Iconic Product", nameOfproduct.getText(), i, "Name");
+			WriteData3("Iconic Product", skuOfproduct.getText(), i, "SKU");
+			i++;
+
+			NavigateBack();
+			System.out.println("Back");
+
+		}
+
+	}
+
 	public void getProductDetails() throws IOException {
 
 		Actions a = new Actions(driver);
@@ -115,7 +174,7 @@ public class HomePage extends UtilClass {
 			System.out.println("Number of Poduct in this Page is =" + products_inside_categories.size());
 
 //			for (WebElement products : products_inside_categories) {
-			for (int j = 0; j < products_inside_categories.size(); j++) {
+			for (int j = 99; j < products_inside_categories.size(); j++) {
 
 				waitTillClickable(products_inside_categories.get(j), 5);
 
@@ -129,6 +188,18 @@ public class HomePage extends UtilClass {
 
 				NavigateBack();
 				System.out.println("Back");
+
+				if (j == products_inside_categories.size() - 1) {
+
+					pagination_Next_btn.click();
+					try {
+						Thread.sleep(6000);
+					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+
+				}
 
 			}
 

@@ -39,7 +39,7 @@ import pageLayer.HomePage;
 import pageLayer.LoginPage;
 import pageLayer.MyAccountPage;
 import pageLayer.PDP_Page;
-
+import pageLayer.SearchAProduct;
 import pageLayer.SignUpPage;
 
 import utilities.UtilClass;
@@ -57,6 +57,7 @@ public class BaseTest {
 	public PDP_Page pdp_obj;
 	public CheckoutPage checkout_obj;
 	public MyAccountPage my_account_obj;
+	public SearchAProduct search_pg_obj;
 	public static Logger logger;
 
 	@BeforeTest
@@ -117,6 +118,7 @@ public class BaseTest {
 		pdp_obj = new PDP_Page(driver);
 		checkout_obj = new CheckoutPage(driver);
 		my_account_obj=new MyAccountPage(driver);
+		search_pg_obj=new SearchAProduct(driver);
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
