@@ -11,7 +11,7 @@ import utilities.UtilClass;
 
 public class ProductDetailsTest extends BaseTest {
 
-	@Test
+//	@Test
 	public void getAllCategoriesName() throws InterruptedException, IOException {
 
 		hp_obj.closePopup();

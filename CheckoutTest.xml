@@ -15,7 +15,7 @@
 	
 		<classes>
 		
-			<class name="testLayer.ProductDetailsTest" />
+			<class name="testLayer.ProductDetailsTest"/>
 
 		</classes>
 	</test> <!-- Test -->
