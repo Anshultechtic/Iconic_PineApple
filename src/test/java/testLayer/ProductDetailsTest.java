@@ -30,10 +30,9 @@ public class ProductDetailsTest extends BaseTest {
 		System.out.println(pdp_obj.get_Description().trim() + "===" + description.trim());
 		System.out.println(pdp_obj.get_Size_Of_product().trim() + "===" + dimensions.trim());
 
-		Assert.assertEquals(pdp_obj.get_nameOfproduct().trim(), name.trim());
 		Assert.assertEquals(pdp_obj.get_Description().trim(), description.trim());
 		Assert.assertEquals(pdp_obj.get_Size_Of_product().trim(), dimensions.trim());
-
+		Assert.assertEquals(pdp_obj.get_nameOfproduct().trim(), name.trim());
 		System.out.println("Test Passed");
 
 	}
