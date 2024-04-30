@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import baseTest.BaseTest;
 import baseTest.BaseTest2;
@@ -25,14 +26,19 @@ public class ProductDetailsTest extends BaseTest {
 		System.out.println(sku + "\n" + name + "\n" + dimensions + "\n" + description);
 		hp_obj.closePopup();
 		search_pg_obj.Search_box(sku);
+		
 		System.out.println("=====================");
 		System.out.println(pdp_obj.get_nameOfproduct().trim() + "===" + name.trim());
 		System.out.println(pdp_obj.get_Description().trim() + "===" + description.trim());
 		System.out.println(pdp_obj.get_Size_Of_product().trim() + "===" + dimensions.trim());
-
-		Assert.assertEquals(pdp_obj.get_Description().trim(), description.trim());
-		Assert.assertEquals(pdp_obj.get_Size_Of_product().trim(), dimensions.trim());
-		Assert.assertEquals(pdp_obj.get_nameOfproduct().trim(), name.trim());
+		SoftAssert sa = new SoftAssert();
+		
+		
+		
+		
+		sa.assertEquals(pdp_obj.get_Description().trim(), description.trim());
+		sa.assertEquals(pdp_obj.get_Size_Of_product().trim(), dimensions.trim());
+		sa.assertEquals(pdp_obj.get_nameOfproduct().trim(), name.trim());
 		System.out.println("Test Passed");
 
 	}

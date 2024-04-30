@@ -822,3 +822,133 @@
 2024-04-30 07:50:05,667 - Shopify Test Cases Suite -INFO - test Failed and Finished
 2024-04-30 08:07:48,468 - Shopify Test Cases Suite -INFO - test Started
 2024-04-30 08:07:48,480 - Shopify Test Cases Suite -INFO - test skipped ...
+2024-04-30 08:18:28,327 - Shopify Test Cases Suite -INFO - Framework Execution started
+2024-04-30 08:18:46,329 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:18:46,906 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:18:48,189 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:18:48,191 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:18:57,378 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:19:07,841 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:19:18,796 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:19:19,352 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:19:20,538 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:19:20,539 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:19:31,281 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:19:41,766 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:19:51,211 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:20:02,521 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:20:18,147 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:20:19,389 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:20:21,944 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:20:21,945 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:20:41,244 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:20:58,930 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:21:21,286 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:21:33,466 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:21:49,707 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:22:01,775 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:22:12,860 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:22:13,706 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:22:15,184 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:22:15,184 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:22:28,593 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:22:40,839 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:22:54,156 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:23:08,756 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:23:21,510 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:23:34,774 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:23:46,420 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:23:57,368 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:24:10,204 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:24:25,347 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:24:38,430 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:24:53,309 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:25:07,436 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:25:20,188 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:25:32,472 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:25:33,186 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:25:35,078 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:25:35,100 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:25:49,757 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:26:06,538 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:26:24,930 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:26:38,977 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:26:54,517 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:27:10,063 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:27:25,570 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:27:38,633 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:27:55,919 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:28:10,313 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:28:25,365 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:28:38,064 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:28:53,046 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:28:55,412 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:28:59,708 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:28:59,708 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:29:34,304 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:29:51,193 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:30:14,562 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:30:33,004 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:30:46,933 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:31:18,991 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:31:40,441 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:32:02,236 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:32:26,184 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:32:43,667 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:33:09,262 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:33:28,669 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:33:47,851 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:34:07,692 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:34:30,794 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:34:48,216 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:35:11,034 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:35:31,551 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:35:59,891 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:36:20,868 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:36:40,081 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:37:01,145 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:37:30,358 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:37:47,222 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:38:09,704 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:38:29,384 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:38:48,879 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:39:05,710 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:39:41,581 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:40:02,502 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:40:33,555 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:40:56,833 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:41:14,146 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:41:51,486 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:42:47,546 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:43:10,247 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:43:51,510 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:44:13,846 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:44:38,184 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:44:58,387 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:45:35,446 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:46:00,606 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:46:25,541 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:46:28,859 - Shopify Test Cases Suite -INFO - Taking ScreenShot
+2024-04-30 08:46:39,252 - Shopify Test Cases Suite -INFO - test Failed ..Took ScreenShot
+2024-04-30 08:46:39,252 - Shopify Test Cases Suite -INFO - test Failed and Finished
+2024-04-30 08:47:04,856 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:47:49,493 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:48:34,986 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:49:18,639 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:49:56,685 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:50:33,684 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:51:23,575 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:51:50,428 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:52:48,566 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:53:40,641 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:54:45,393 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:55:15,918 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:55:57,650 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:56:28,625 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:57:09,912 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:57:47,941 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 08:58:40,417 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 08:59:15,058 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 09:00:03,455 - Shopify Test Cases Suite -INFO - test Started
+2024-04-30 09:00:39,687 - Shopify Test Cases Suite -INFO - test Finished
+2024-04-30 09:01:15,743 - Shopify Test Cases Suite -INFO - test Started
