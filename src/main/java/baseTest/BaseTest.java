@@ -159,7 +159,7 @@ public class BaseTest {
 	@AfterMethod
 	public void tearDown() throws InterruptedException {
 
-//		driver.close();
+		driver.close();
 		Robot r;
 		try {
 			r = new Robot();
@@ -169,7 +169,7 @@ public class BaseTest {
 
 		}
 
-//		driver.quit();
+		driver.quit();
 
 	}
 

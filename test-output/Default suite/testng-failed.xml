@@ -5,7 +5,7 @@
     <classes>
       <class name="testLayer.ProductDetailsTest">
         <methods>
-          <include name="checkProductDetails"/>
+          <include name="checkProductDetails" invocation-numbers="128 131 355 228 551 424 170 426 427 236 428 269 429 366 207 561 242 307 280 312 250 348 605"/>
           <include name="OnTestend"/>
           <include name="OnTeststart"/>
           <include name="launchApplication"/>
