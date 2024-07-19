@@ -20,9 +20,9 @@ public class ExtentReportCode {
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		
 		reporter.config().setTheme(Theme.DARK);
-		reporter.config().setDocumentTitle("MGM Test Report");
+		reporter.config().setDocumentTitle("Iconic Apple Test Report");
 		
-		reporter.config().setReportName("MGM Test_Cases Report");
+		reporter.config().setReportName("Iconic Apple Test_Cases Report");
 		
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);

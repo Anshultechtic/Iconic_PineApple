@@ -137,7 +137,7 @@ public class BaseTest {
 		String desPath = System.getProperty("user.dir") + "\\test-OutputFiles\\";
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File des = new File(desPath + testCase + ".png");
+		File des = new File(desPath + testCase+System.currentTimeMillis()+".png");
 		try {
 			FileHandler.copy(src, des);
 		} catch (IOException e) {

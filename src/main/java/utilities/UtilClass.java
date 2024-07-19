@@ -253,6 +253,51 @@ public class UtilClass extends BaseTest {
 
 	}
 	
+	
+	
+	@DataProvider(name = "dp1")
+	public static Object[][] readDataBook() {
+
+		String path = System.getProperty("user.dir") + "\\src\\test"
+				+ "\\resources\\ExcelSheets\\PD_details.xlsx";
+		Object[][] data = null;
+		Map<String, String> map = new HashMap<>();
+		try {
+			FileInputStream fis = new FileInputStream(path);
+
+			XSSFWorkbook wb = new XSSFWorkbook(fis);
+
+			XSSFSheet sh = null;
+			DataFormatter formatter = new DataFormatter();
+
+			sh = wb.getSheet("Sheet2");
+			Row rw = sh.getRow(0);
+			data = new Object[sh.getPhysicalNumberOfRows() - 1][rw.getLastCellNum()];
+
+			for (int i = 0; i < 5; i++) {
+
+				rw = sh.getRow(i + 1);
+				for (int j = 0; j < rw.getLastCellNum(); j++) {
+
+					String cell = formatter.formatCellValue(rw.getCell(j));
+
+					data[i][j] = cell;
+
+				}
+//				
+			}
+
+		}
+
+		catch (Exception e) {
+
+		}
+		return data;
+
+	}
+	
+	
+	
 	public static void WriteData3(String sheetname, String message, int startRownum, String colNmae) throws IOException {
 
 		String path = System.getProperty("user.dir") + "\\src\\test\\resources\\ExcelSheets\\Book22.xlsx";
