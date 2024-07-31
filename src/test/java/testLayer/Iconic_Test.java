@@ -11,56 +11,22 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import baseTest.BaseTest;
 import baseTest.BaseTest2;
 
-public class Iconic_Test extends BaseTest2 {
-	
-	
-	
-	
-	@Test(dataProvider = "readData")
-	public  void main(String data, String Bp) {
-		
-		driver.get("https://iconicpineapple.com/admin/");
-		
-		iconic_obj.enterusername(null);
-		iconic_obj.enterpassword(null);
-		
-		try {
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		iconic_obj.clickSignIn();
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		iconic_obj.clickOnCatalog();
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		iconic_obj.clickOnProduct();
-		
-		iconic_obj.sendDataInSearchBox(data);
-		
-		
-		
-	}
-	
+public class Iconic_Test extends BaseTest {
 
+	@Test
+	public void main() {
+
+		iconic_pg_obj.login();
+		iconic_pg_obj.clickOnMenuNav_Links();
+	}
 
 	@DataProvider
 	public static Object[][] readData(String sheetname) {
 
-		String path = System.getProperty("user.dir") + "\\resources\\ExcelSheets\\"+sheetname+".xlsx";
+		String path = System.getProperty("user.dir") + "\\resources\\ExcelSheets\\" + sheetname + ".xlsx";
 		Object[][] data = null;
 		Map<String, String> map = new HashMap<>();
 		try {
@@ -69,6 +35,7 @@ public class Iconic_Test extends BaseTest2 {
 			XSSFWorkbook wb = new XSSFWorkbook(fis);
 
 			XSSFSheet sh = null;
+
 			DataFormatter formatter = new DataFormatter();
 
 			sh = wb.getSheet("Iconic");
@@ -97,16 +64,3 @@ public class Iconic_Test extends BaseTest2 {
 
 	}
 }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-

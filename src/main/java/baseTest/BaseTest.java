@@ -36,6 +36,7 @@ import pageLayer.CheckoutPage;
 import pageLayer.Collections_Page;
 import pageLayer.EnterPassword;
 import pageLayer.HomePage;
+import pageLayer.IconicPage;
 import pageLayer.LoginPage;
 import pageLayer.MyAccountPage;
 import pageLayer.PDP_Page;
@@ -58,6 +59,7 @@ public class BaseTest {
 	public CheckoutPage checkout_obj;
 	public MyAccountPage my_account_obj;
 	public SearchAProduct search_pg_obj;
+	public IconicPage iconic_pg_obj;
 	public static Logger logger;
 
 	@BeforeTest
@@ -93,8 +95,8 @@ public class BaseTest {
 
 			ChromeOptions options = new ChromeOptions();
 
-			options.addArguments("--headless","--window-size=1920,1200");
-			driver = new ChromeDriver(options);
+//			options.addArguments("--headless","--window-size=1920,1200");
+			driver = new ChromeDriver();
 //			driver = new ChromeDriver();
 
 		}
@@ -119,6 +121,7 @@ public class BaseTest {
 		checkout_obj = new CheckoutPage(driver);
 		my_account_obj=new MyAccountPage(driver);
 		search_pg_obj=new SearchAProduct(driver);
+		iconic_pg_obj= new IconicPage(driver);
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
@@ -126,7 +129,7 @@ public class BaseTest {
 		System.out.println(prop.getProperty("url"));
 		driver.get(prop.getProperty("url"));
 
-//		driver.get("https://www.google.co.in/");
+//		driver.get("https://iconicpineapple.com/");
 
 		return driver;
 

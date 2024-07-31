@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="utilities.ListenerSetUp"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testLayer.ProductDetailsTest">
+      <class name="testLayer.Iconic_Test">
         <methods>
-          <include name="checkProductDetails" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 32 42 43 44 45 46 47 48 49 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 71 72 73 74 75 76 77 78 79 81 83 84 85 86 87 88 89 90 92 94 96 98 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 123 124 125 126 127 128 129 130 131 135 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 155 156 157 158 160 161 162 163 167 168 170 171 172 173 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 204 206 208 210 212 214 215 216 218 220 221 222 223 224 225 227 228 229 230 231 232 233 234 235 236 237 238 239 241 242 243 244 250 263 269 271 272 280 285 286 287 289 292 294 298 307 312 339 340 358 362 363 364 365 366 368 370 374 376 380 382 390 392 395 396 397 398 400 403 405 407 409 410 412 414 416 418 420 421 422 423 425 426 427 428 429 430 432 434 436 437 441 442 443 444 445 446 447 448 449 451 453 455 456 457 458 465 467 468 470 473 474 478 480 481 482 483 484 489 490 491 493 494 496 498 499 503 505 507 513 514 515 516 517 518 519 520 521 522 523 524 525 528 529 531 533 534 536 537 538 540 542 543 544 545 546 547 548 549 550 551 552 553 554 556 557 558 559 560 561 562 564 567 569 571 573 575 577 579 581 582 583 585 587 588 589 590 591 592 593 594 595 596 597 598 599 600 601 602 603 604 605 606 607 608 609 610 615 616 617 618 619 620 621 622 623 624 625 626 627"/>
+          <include name="main"/>
           <include name="OnTestend"/>
           <include name="OnTeststart"/>
           <include name="launchApplication"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testLayer.ProductDetailsTest -->
+      </class> <!-- testLayer.Iconic_Test -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
