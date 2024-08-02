@@ -18,16 +18,16 @@ import com.lowagie.text.Row;
 
 public class ExcelWriteData {
 
-	static String path = System.getProperty("user.dir") + "\\src\\test\\resources\\ExcelSheets\\Standard_Sheet_9.xlsx";
+	static String path = System.getProperty("user.dir") + "\\src\\test\\resources\\ExcelSheets\\Standard_Sheet_10.xlsx";
 
 	public static void main(String[] args) {
 
 		try {
-			writeDataInExcel3("contacts", "Email", createEmail(50000));
-			writeDataInExcel3("contacts", "First_Name", firstName(50000));
-			writeDataInExcel3("contacts", "Last_Name", lastName(50000));
-			writeDataInExcel3("contacts", "Phone_Number", phoneNumber(50000));
-			writeDataInExcel3("contacts", "Date_Of_Birth", DOB(50000));
+			writeDataInExcel3("contacts", "Email", createEmail(100));
+			writeDataInExcel3("contacts", "First_Name", firstName(100));
+			writeDataInExcel3("contacts", "Last_Name", lastName(100));
+			writeDataInExcel3("contacts", "Phone_Number", phoneNumber(100));
+			writeDataInExcel3("contacts", "Date_Of_Birth", DOB(100));
 
 		} catch (IOException e) {
 			e.printStackTrace();
